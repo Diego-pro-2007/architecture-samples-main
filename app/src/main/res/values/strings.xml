@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2019 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Nombre de la app -->
+    <string name="app_name">ToDoApp</string>
+
+    <!-- Mensajes (Snackbars) y títulos de pantallas -->
+    <string name="add_task">Nueva tarea</string>
+    <string name="edit_task">Editar tarea</string>
+    <string name="task_details">Detalle de la tarea</string>
+    <string name="task_marked_complete">¡Tarea completada! 🎉</string>
+    <string name="task_marked_active">Tarea marcada como pendiente</string>
+    <string name="loading_tasks_error">No se pudieron cargar las tareas</string>
+    <string name="loading_task_error">No se pudo cargar la tarea</string>
+    <string name="task_not_found">Tarea no encontrada</string>
+    <string name="completed_tasks_cleared">Tareas hechas eliminadas</string>
+    <string name="menu_filter">Filtrar</string>
+    <string name="open_drawer">Abrir menú</string>
+    <string name="menu_back">Regresar</string>
+    <string name="menu_clear">Borrar tareas hechas</string>
+    <string name="menu_delete_task">Eliminar tarea</string>
+    <string name="menu_more">Más opciones</string>
+    <string name="navigation_view_header_title">ToDoApp · 4E</string>
+    <string name="title_hint">Título</string>
+    <string name="description_hint">Escribe aquí tu tarea.</string>
+    <string name="cd_save_task">Guardar tarea</string>
+    <string name="empty_task_message">La tarea no puede estar vacía</string>
+    <string name="successfully_saved_task_message">Tarea guardada</string>
+    <string name="list_title">Mis tareas</string>
+    <string name="statistics_title">Estadísticas</string>
+    <string name="statistics_no_tasks">Aún no tienes tareas.</string>
+    <string name="statistics_active_tasks">Pendientes: %.1f%%</string>
+    <string name="statistics_completed_tasks">Hechas: %.1f%%</string>
+    <string name="statistics_error">Error al cargar las estadísticas.</string>
+    <string name="no_data">Sin datos</string>
+    <string name="loading">CARGANDO</string>
+
+    <!-- Filtros por categoría: Todas / Pendientes / Hechas -->
+    <string-array name="list_tasks_array">
+        <item>@string/nav_all</item>
+        <item>@string/nav_active</item>
+        <item>@string/nav_completed</item>
+    </string-array>
+    <string name="nav_all">Todas</string>
+    <string name="nav_active">Pendientes</string>
+    <string name="nav_completed">Hechas</string>
+    <string name="label_all">Todas las tareas</string>
+    <string name="label_active">Tareas pendientes</string>
+    <string name="label_completed">Tareas hechas</string>
+
+    <!-- Empty State (pantalla vacía) -->
+    <string name="no_tasks_all">¡Aún no tienes tareas!</string>
+    <string name="no_tasks_active">¡No tienes tareas pendientes!</string>
+    <string name="no_tasks_completed">Todavía no has terminado ninguna tarea</string>
+    <string name="empty_subtitle_all">Toca el botón para crear tu primera tarea y empieza a organizarte.</string>
+    <string name="empty_subtitle_active">Todo al día. ¡Disfruta tu tiempo libre!</string>
+    <string name="empty_subtitle_completed">Marca una tarea como hecha y aparecerá aquí.</string>
+    <string name="empty_cta">Crear mi primera tarea</string>
+
+    <!-- Barra de progreso -->
+    <string name="progress_label">%1$d de %2$d tareas hechas</string>
+
+    <string name="refresh">Actualizar</string>
+    <string name="successfully_deleted_task_message">Tarea eliminada</string>
+    <string name="successfully_added_task_message">Tarea agregada</string>
+    <string name="no_data_description" />
+
+    <!-- Content Descriptions (accesibilidad) -->
+    <string name="tasks_header_image_content_description">Imagen de encabezado</string>
+    <string name="no_tasks_image_content_description">Imagen de lista vacía</string>
+
+</resources>
